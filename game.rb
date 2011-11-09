@@ -8,7 +8,6 @@ class Game
     _extra_wins   = case ( _cycle_count % 5)
     when (1..3); 1
     when      4; 2
-    when      5; 3
     else       ; 0
     end
     
